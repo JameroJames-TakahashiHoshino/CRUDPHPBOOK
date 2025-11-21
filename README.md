@@ -1,6 +1,35 @@
-# CRUDPHPBOOK
-One of my small projects during my college day
+CRUD PHP BOOK
 
-For this to work, you need to have XAAMP or Laragon. Open the Apache and My Sql and go to admin of Apache, you'll be redirected to php My admin. Now go to the database and create a database there.
-Take note this only works in your localhost. Make sure to upload this inside the folder of htdocs in XAAMP or Laragon. After uploading you can now start it and access it in the browser anything can work. 
-To be accessed you need to type it like this (this is not exactly how you should type it) http://localhost/crud_pdo/Jamero_Bootstrap7.php.
+This is one of my small projects back in college. It’s a simple CRUD system made using PHP, MySQL, and Bootstrap. Nothing too fancy — just the usual add, edit, delete, and view functions but it works fine.
+
+How to Run This Project
+
+To make this work, you need either XAMPP or Laragon (I personally used XAMPP).
+
+Steps:
+
+Open XAMPP/Laragon and turn on Apache and MySQL.
+
+Go to phpMyAdmin.
+
+Create a new database.
+(Name it whatever you want, just make sure it matches the config inside the PHP file.)
+
+Put this whole project folder inside:
+
+htdocs/   (for XAMPP)
+www/      (for Laragon)
+
+
+After copying it, open your browser and access it like this:
+
+http://localhost/crud_pdo/Jamero_Bootstrap7.php
+
+
+(You might need to adjust the folder name depending on where you put it.)
+
+That’s it. Once everything is set up, the CRUD system should work — you can add books, edit them, delete them, etc.
+
+Screenshots
+
+The repo contains several images (Image1.jpg, Image2.jpg…) showing how the project looks.
