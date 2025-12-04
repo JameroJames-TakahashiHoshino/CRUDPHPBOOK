@@ -1,35 +1,55 @@
-CRUD PHP BOOK
+📚 CRUD PHP Book Management System
 
-This is one of my small projects back in college. It’s a simple CRUD system made using PHP, MySQL, and Bootstrap. Nothing too fancy — just the usual add, edit, delete, and view functions but it works fine.
+This is a small college project—a simple CRUD (Create, Read, Update, Delete) application built using PHP, MySQL, and Bootstrap.
+It’s straightforward and beginner-friendly, with basic features for managing book records.
 
-How to Run This Project
+🚀 Features
 
-To make this work, you need either XAMPP or Laragon (I personally used XAMPP).
+Add new books
 
-Steps:
+Edit existing book details
 
-Open XAMPP/Laragon and turn on Apache and MySQL.
+Delete records
 
-Go to phpMyAdmin.
+View all books in a clean Bootstrap interface
 
-Create a new database.
-(Name it whatever you want, just make sure it matches the config inside the PHP file.)
+🛠️ How to Run the Project
 
-Put this whole project folder inside:
+You’ll need either XAMPP or Laragon to run this locally.
+(I personally used XAMPP during development.)
 
-htdocs/   (for XAMPP)
-www/      (for Laragon)
+Steps
 
+Start your local server
 
-After copying it, open your browser and access it like this:
+Open XAMPP/Laragon
+
+Enable Apache and MySQL
+
+Create the database
+
+Open phpMyAdmin
+
+Create a new database
+(You can name it anything—just make sure it matches the database name in the PHP config.)
+
+Place the project folder in the correct directory
+
+For XAMPP → htdocs/
+
+For Laragon → www/
+
+Run the project
+
+In your browser, go to:
 
 http://localhost/crud_pdo/Jamero_Bootstrap7.php
 
 
-(You might need to adjust the folder name depending on where you put it.)
+(Adjust the folder name if yours is different.)
 
-That’s it. Once everything is set up, the CRUD system should work — you can add books, edit them, delete them, etc.
+If everything is set up correctly, the system should work right away—allowing you to add, edit, delete, and view books.
 
-Screenshots
+📸 Screenshots
 
-The repo contains several images (Image1.jpg, Image2.jpg…) showing how the project looks.
+Screenshots (Image1.jpg, Image2.jpg, etc.) are included in the repository to show the UI and functionality.
